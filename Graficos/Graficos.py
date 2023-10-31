@@ -23,3 +23,18 @@ plt.ylabel('Superfície')
 plt.title('Gráfico da circunferência ao quadrado')
 plt.show()
 ## plt.savefig('FindingPI/Graficos/grafico_circunferencia_quadrado.png')
+
+## calculo de regressão não linear
+
+param=np.polyfit(x1,y,1) # ajuda a curva
+print('parâmetros: ',param) #mostra os parâmetros
+a, b = param
+print('reta: y = %.5f * x + %.5f' % (a, b))
+#gráfico
+x_fit=np.linspace(-0.1,82369.1,1000)
+y_fit=np.polyval(param,x_fit)
+plt.plot(xs,ys,'r.',label='Dados Originais')
+plt.plot(x_fit,y_fit,'b--',label='Curva Ajustada')
+plt.xlabel('Circunferência ao quadrado')
+plt.ylabel('Superfície')
+plt.legend()

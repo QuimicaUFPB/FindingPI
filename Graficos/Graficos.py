@@ -13,6 +13,7 @@ plt.xlabel('Circunferência')
 plt.ylabel('Superfície')
 plt.title('Gráfico da circunferência')
 plt.show()
+## plt.savefig('FindingPI/Graficos/grafico_circunferencia.png')
 
 ## Gráfico da circunferência ao quadrado e superfície
 
@@ -21,4 +22,4 @@ plt.xlabel('Circunferência ao quadrado')
 plt.ylabel('Superfície')
 plt.title('Gráfico da circunferência ao quadrado')
 plt.show()
-## plt.savefig('local/grafico.png')
+## plt.savefig('FindingPI/Graficos/grafico_circunferencia_quadrado.png')

@@ -7,7 +7,6 @@ param=np.polyfit(x1,y,1) # ajuda a curva
 print('parâmetros: ',param) #mostra os parâmetros
 a, b = param
 print('reta: y = %.5f * x + %.5f' % (a, b))
-
 #gráfico da regressão linear
 x_fit=np.linspace(-0.1,103041.1,1000)
 y_fit=np.polyval(param,x_fit)

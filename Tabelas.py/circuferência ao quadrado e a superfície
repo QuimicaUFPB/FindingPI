@@ -1,0 +1,15 @@
+import pandas as pd
+
+# Dados
+dados = {
+    'objeto': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+    'circunferência^2 (mm^2)': [3600, 19600, 29584, 45369, 82369, 625, 9025, 15375, 44944, 81225, 103041],
+    'superfície (mm^2)': [350, 1625, 2300, 3750, 6475, 50, 656.9, 1114.4, 3225, 6243.8, 7625]
+}
+
+# Criar um DataFrame
+df = pd.DataFrame(dados)
+
+
+# Exibir o DataFrame
+print(df.to_string(index=False))

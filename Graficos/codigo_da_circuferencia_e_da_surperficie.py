@@ -1,4 +1,3 @@
-# Biblioteca
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -9,7 +8,7 @@ y = [350, 1625, 2300, 3750, 6475, 50.0, 656.9, 1114.4, 3225.0, 6243.8, 7625.0]
 
 ## Gráfico da circunferência e superfície
 plt.scatter(x,y)
-plt.xlabel('Circunferência')
-plt.ylabel('Superfície')
+plt.title('Grafico 3: Circuferência e Superfície')
+plt.xlabel(xlabel=r'C ($mm^2$)')
+plt.ylabel(ylabel=r'S ($mm^2$)')
 plt.grid()
-plt.savefig('/content/sample_data/grafico_circunferencia.png')

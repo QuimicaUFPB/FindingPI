@@ -1,7 +1,7 @@
 # FindingPI
 ## Abstract
 Este repositório forma parte da nossa nova organização QuímicaUFPB, a qual tem como objetivo:
-1. Aprender as ferramentas básicas para trabalhar de maneira colaborativa:
+1. Aprender as ferramentas básicas para trabalhar de maneira colaborativa.
 
 2. Tornar público as atividades experimentais realizadas por estudantes do curso de Química sob orientação/supervisão do professor de Física.
 
@@ -17,11 +17,11 @@ A partir dai, foram criados dois jupyter notebooks com estes nomes e estes objet
 Caso queira instalar na sua máquina local, siga o standard:
 1. Clone o repositório:
 ```bash
-$ git clone https://github.com/QuimicaUFPB/FindingPI.git
+git clone https://github.com/QuimicaUFPB/FindingPI.git
 ```
 2. Navegue até a pasta onde foi feito o download
 ```bash
-$ cd FindingPI
+cd FindingPI
 ```
 
 Porém, antes disso, para poder visualizar/editar arquivos, não esqueça ter instalado:
